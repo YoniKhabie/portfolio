@@ -8,7 +8,7 @@ type SkillsSectionProps = {
 
 const SkillsSection: React.FC<SkillsSectionProps> = ({ title, cardList }) => {
     return (
-        <div className="flex-1 dark:bg-[#00000080] p-4 rounded-2xl">
+        <div className="flex-1 bg-[#00000080] p-4 rounded-2xl">
             <div className="flex flex-col">
                 {/* Centered title above the card list */}
                 <h3 className="text-center text-lg font-semibold opacity-50 mb-6">{title}</h3>

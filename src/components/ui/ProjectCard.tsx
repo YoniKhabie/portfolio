@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, te
     };
 
     return (
-        <div className="max-w-sm h-full flex flex-col justify-between rounded overflow-hidden shadow-lg dark:bg-[#00000080]">
+        <div className="max-w-sm h-full flex flex-col justify-between rounded overflow-hidden shadow-lg bg-[#00000080]">
             <img loading="lazy" className="w-full h-48 p-1 rounded-lg object-cover" src={image} alt={title} />
             <div className="px-6 py-4 flex-grow">
                 <div className="font-bold text-xl mb-2">{title}</div>

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
                 <h4 className="flex justify-center text-sm font-medium text-white opacity-60 transition duration-300 ease-in-out hover:opacity-100">
                     Built & Designed by Yoni Ifrah
                 </h4>
-                <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
+                <hr className="my-6 sm:mx-auto lg:my-8 border-gray-700" />
             </div>
         </footer>
     );

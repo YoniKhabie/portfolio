@@ -15,10 +15,6 @@ const items = [
         label: "Projects",
         href: "#projects",
     },
-    // {
-    //     label: "Contact",
-    //     href: "#contact",
-    // },
 ];
 
 export default function Navbar() {

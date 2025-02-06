@@ -19,7 +19,7 @@ export default function Header() {
                 <TypingEffect text={prompt} />
                 <ul
                     role="list"
-                    className="mt-30 flex flex-wrap justify-start gap-x-4 md:mt-10 sm:gap-y-4:mt-10 xl:col-span-2 "
+                    className="mt-30 flex flex-wrap justify-start gap-x-1 md:mt-10 sm:gap-y-4:mt-10 xl:col-span-2 "
                 >
                     {headerData.map((image, index) => (
                         <li key={index} className="fade-in-from-bottom pt-2">
