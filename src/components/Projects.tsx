@@ -1,5 +1,5 @@
 import type React from "react";
-import { projectsData } from "../data/projectsData";
+import { projectsData } from "../data/ProjectsData";
 import Headline from "./ui/Headline";
 import ProjectCard from "./ui/ProjectCard";
 import Section from "./ui/Section";

@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
-import { timelineData } from "./data/timelineData";
+import { timelineData } from "./data/TimelineData";
 
 // about, education? work exp, projects, skill, about;
 // navbar, header , sections, footer
