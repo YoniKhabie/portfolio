@@ -10,7 +10,7 @@ const prompt =
 export default function Header() {
     return (
         <Section id="about">
-            <div className="mx-auto max-w-7xl px-6 ml-6.75 sm:ml-1 lg:px-8">
+            <div className="mx-auto max-w-7xl px-6 ml-6.75 sm:ml-1 lg:px-16">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl fade-in-from-top">
                         Yoni Ifrah
