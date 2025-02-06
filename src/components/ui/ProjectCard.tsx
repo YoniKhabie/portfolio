@@ -10,9 +10,10 @@ type ProjectCardProps = {
     title: string;
     description: string;
     technologies: Technology[];
+    link: string;
 };
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, technologies }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, technologies, link }) => {
     const getDescriptionClass = () => {
         if (description.length > 200) return "text-xs";
         if (description.length > 100) return "text-sm";
@@ -20,7 +21,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, te
     };
 
     return (
-        <div className="max-w-sm h-full flex flex-col justify-between rounded overflow-hidden shadow-lg bg-[#00000080]">
+        <a
+            target="_blank"
+            href={link}
+            className="max-w-sm h-full flex flex-col justify-between rounded overflow-hidden shadow-lg bg-[#00000080]"
+        >
             <img loading="lazy" className="w-full h-48 p-1 rounded-lg object-cover" src={image} alt={title} />
             <div className="px-6 py-4 flex-grow">
                 <div className="font-bold text-xl mb-2 text-white">{title}</div>
@@ -36,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, te
                     </span>
                 ))}
             </div>
-        </div>
+        </a>
     );
 };
 
