@@ -1,6 +1,6 @@
 // Color mapping for technologies
 const TECH_COLORS: Record<string, string> = {
-    TypeScript: "bg-blue-900 text-white-800",
+    TypeScript: "bg-blue-900 text-white",
     "React Native": "bg-blue-100 text-blue-800",
     "React.js": "bg-blue-100 text-blue-800",
     Express: "bg-gray-100 text-gray-800",
@@ -10,18 +10,18 @@ const TECH_COLORS: Record<string, string> = {
     "Node.js": "bg-green-800 text-gray-100",
     MongoDB: "bg-green-100 text-green-800",
     Flutter: "bg-blue-800 text-sky-100",
-    Tailwind: "bg-cyan-600 text-white-100",
+    Tailwind: "bg-cyan-600 text-white",
     Python: "bg-blue-700 text-yellow-300",
     Firebase: "bg-orange-200 text-red-700",
     Java: "bg-orange-200 text-red-900",
-    Arduino: "bg-cyan-800 text-white-400",
+    Arduino: "bg-cyan-800 text-white",
 };
 
 // Get color by technology
-const ColorByTech = (tech: string) => TECH_COLORS[tech] || TECH_COLORS["TypeScript"];
+export const ColorByTech = (tech: string) => TECH_COLORS[tech] || TECH_COLORS["TypeScript"];
 
 // Enum for tech names
-enum Tech {
+export enum Tech {
     RN = "React Native",
     React = "React.js",
     TS = "TypeScript",
