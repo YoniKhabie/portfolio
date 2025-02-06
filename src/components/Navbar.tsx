@@ -22,7 +22,7 @@ export default function Navbar() {
         <nav className=" py-4 backdrop-filter backdrop-blur-md sticky top-0 bg-opacity-0 z-50">
             <div className="container mx-auto flex justify-between items-center px-4 ">
                 {/* Navigation Links */}
-                <ul className="flex flex-1 justify-between space-x-4">
+                <ul className="flex flex-1 justify-between space-x-4 px-5 sm:px-10">
                     {items.map((item, index) => (
                         <li key={index}>
                             <a
