@@ -53,7 +53,7 @@ export const projectsData = [
             { name: Tech.RN, color: ColorByTech(Tech.RN) },
             { name: Tech.TS, color: ColorByTech(Tech.TS) },
         ],
-        link: "https://github.com/YoniIfrah/Pokedex-RN",
+        link: "https://github.com/YoniKhabie/Pokedex-RN",
     },
     {
         image: "/images/airbnb.png",
@@ -68,7 +68,7 @@ export const projectsData = [
             { name: Tech.Prisma, color: ColorByTech(Tech.Prisma) },
             { name: Tech.TS, color: ColorByTech(Tech.TS) },
         ],
-        link: "https://github.com/YoniIfrah/Airbnb-Clone",
+        link: "https://github.com/YoniKhabie/Airbnb-Clone",
     },
     {
         image: "/images/instagram.png",
@@ -83,7 +83,7 @@ export const projectsData = [
 
             { name: Tech.TS, color: ColorByTech(Tech.TS) },
         ],
-        link: "https://github.com/YoniIfrah/MERN-frontend",
+        link: "https://github.com/YoniKhabie/MERN-frontend",
     },
     {
         image: "/images/IoT-AI.png",
@@ -96,7 +96,7 @@ export const projectsData = [
             { name: Tech.Firebase, color: ColorByTech(Tech.Firebase) },
             { name: Tech.Arduino, color: ColorByTech(Tech.Arduino) },
         ],
-        link: "https://github.com/YoniIfrah/fridgeIT",
+        link: "https://github.com/YoniKhabie/fridgeIT",
     },
     {
         image: "/images/coronavirus.jpg",
@@ -104,7 +104,7 @@ export const projectsData = [
         description:
             "Simulate of the COVID-19 epidemic, built using Java. It incorporates Object-Oriented Programming (OOP), a graphical user interface (GUI), multithreading, and design patterns.",
         technologies: [{ name: Tech.Java, color: ColorByTech(Tech.Java) }],
-        link: "https://github.com/YoniIfrah/COVID19",
+        link: "https://github.com/YoniKhabie/COVID19",
     },
     {
         image: "/images/btc.png",
@@ -112,6 +112,6 @@ export const projectsData = [
         description:
             "With Binance & Telegram API, pandas and threading I was able to collect my data, add features and to scan the crypto market quickly, for each potential position the telegram bot will notify the user with the required details.",
         technologies: [{ name: Tech.Python, color: ColorByTech(Tech.Python) }],
-        link: "https://github.com/YoniIfrah/Crypto-Signal",
+        link: "https://github.com/YoniKhabie/Crypto-Signal",
     },
 ];

@@ -3,12 +3,12 @@ import { SiGithub, SiGmail, SiLinkedin, SiWhatsapp } from "react-icons/si";
 export const headerData = [
     {
         alt: "Github",
-        link: "https://github.com/YoniIfrah",
+        link: "https://github.com/YoniKhabie",
         icon: SiGithub,
     },
     {
         alt: "LinkedIn",
-        link: "https://www.linkedin.com/in/yoni-ifrah/",
+        link: "https://www.linkedin.com/in/yoni-khabie/",
         icon: SiLinkedin,
     },
     {
