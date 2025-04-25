@@ -3,6 +3,12 @@ import CV from "../assets/cv.pdf";
 
 export const timelineData = [
     {
+        date: "March 2025 - Current",
+        title: "Freelancer - Mobile Developer",
+        description:
+            "Designed and developed a cross-platform mobile app from scratch for a real estate business using Flutter and Firebase, targeting Android and iOS. Collaborated directly with the client to define requirements. Implemented features such as user authentication, role-based permissions, task categorization, real-time chat, and multi-language support.",
+    },
+    {
         date: "January 2024 - March 2025",
         title: "Spinomenal - Game Developer",
         description:

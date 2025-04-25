@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
+import ScrollTracker from "./components/ui/ScrollTracker";
 import { timelineData } from "./data/TimelineData";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Timeline items={timelineData} />
             <Projects />
             <Footer />
+            <ScrollTracker />
         </>
     );
 }
