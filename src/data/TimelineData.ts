@@ -15,10 +15,10 @@ export const timelineData = [
             "Developing using TypeScript with an Object-Oriented Programming (OOP) approach, implementing features and enhancing codebase under tight deadlines. Collaborate with designers, QA testers, and product managers to deliver high-quality products for clients from Europe and the USA. Create Python automation scripts to reduce R&D time.",
     },
     {
-        date: "March 2023 - December 2024",
-        title: "Stealth Mode Startup - Mobile Developer",
+        date: "March 2022 - December 2024",
+        title: "Stealth Mode Startup - Full Stack Mobile Developer",
         description:
-            "Developing a SAAS application with Flutter according to a UI UX design allowing the application to be cross-platform working in an agile environment with daily meetings using Jira and git as version control to track changes and collaboration.",
+            "Developing a SAAS application with Flutter according to a UI UX design, allowing the application to be cross-platform and using Node.js with Express to implement from scratch RESTful APIs in an agile environment with daily meetings using Jira and git as version control to track changes and collaboration.",
         link: CV,
     },
 ];
